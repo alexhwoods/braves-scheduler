@@ -1,0 +1,9 @@
+{
+  "name": "braves-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^3.17.1"
+  }
+}
