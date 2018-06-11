@@ -29,7 +29,7 @@ const sendMessageToAlex = content => {
   })
 }
 
-module.exports = () => {
+module.exports.handler = () => {
   const date = getCurrentDate()
   const game = data[date]
 
