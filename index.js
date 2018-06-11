@@ -29,7 +29,7 @@ const sendMessageToAlex = content => {
   })
 }
 
-const sendBravesGame = () => {
+module.exports = () => {
   const date = getCurrentDate()
   const game = data[date]
 
@@ -41,4 +41,3 @@ const sendBravesGame = () => {
   }
 }
 
-sendBravesGame()
