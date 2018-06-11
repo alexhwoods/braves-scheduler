@@ -35,9 +35,10 @@ module.exports.handler = () => {
 
   if (game) {
     const { subject, startTime, description } = game
-    const message = sendMessageToAlex(
+    sendMessageToAlex(
       `Braves game today! \n\n${subject} @ ${startTime}. \n\n Find it on:\n${description}. \n\nGo Braves!`,
     )
+  } else {
+    sendMessageToAlex(`No Braves game today :(`)
   }
 }
-
